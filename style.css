@@ -9,7 +9,7 @@ html{
 .container{
     width: 80%;
     margin: 0 auto;
-    height: 100%;
+    height: 600px;
     max-width: 1180px;
 
 }
@@ -109,3 +109,66 @@ max-width: 780px;
     margin-bottom: 25px;
    
 }
+
+/**inizio main**/
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.section-1{
+    margin-top: 30px;
+}
+
+
+.row img{
+    width: 600px;
+}
+
+.col-sx{
+    float: left;
+    }
+    
+.col-dx{
+float: right;
+}
+
+.text{
+    width: 400px;
+    padding-top: 30px;
+}
+
+.text h2{
+    font-size: 40px;
+}
+.text p{
+    font-size: 20px;
+}
+
+.testo{
+ 
+ text-align: center;
+}
+.testo h2{
+    font-size: 40px;
+}
+
+.immagine{
+    margin-bottom: 16px;
+    text-align: center;
+
+}
+
+
+.title-stella {
+background-image: url("img/stars.svg");
+background-repeat: no-repeat;
+padding-top: 40px;
+padding: 10px;
+font-size: 30px;
+margin-bottom: 0 auto;
+background-size: contain;
+text-align: center;
+}
+
